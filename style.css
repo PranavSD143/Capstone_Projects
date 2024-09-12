@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.intro{
+  background:linear-gradient(to right,#167D7F,#29A0B1);
+  height:700px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  margin:0%;
+}
+.content{
+  color:#00221C;
+  font-size: 3rem;
+  font-family:  "Nerko One";
+  text-align: center;
+  font-size: 4rem;  
+
+}
+img{
+  border-radius: 50%;
+  object-fit: cover;
+  height:200px;
+  width:200px;
+  border:4px #E5DDC8 solid;
+}
+.images{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#coding{
+  text-align: center;
+}
+
+#gaming{
+  display:flex;
+  gap:15rem;
+  width:auto;
+  flex-wrap: wrap;
+}
+
+.resume{
+  background-color:#D4F1F4;
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:700px;
+}
+.resume>.image{
+  margin-top: 7%;
+
+}
+
+#resume-content{
+  font-family: 'lato';
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.qualifications{
+  margin-top:5%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  gap:150px;
+  
+}
+
+.skills{
+  border:2px #A5B0AC solid;
+  border-radius: 5%;
+  font-size: 2rem;
+  font-family: "roboto",cursive;
+  font-weight: bold;
+  color:#29A0B1;
+  display:flex;
+  flex-direction: column;
+  padding:1.5rem ;
+  box-shadow: 10px 5px 5px #A5B0AC;
+}
+.contact{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  margin-bottom:10%;
+}
+#contact{
+  text-align: center;
+  font-family: "nerko one";
+  font-size: 4rem;
+  color:#167D7F;
+}
+
+#mail>a{
+  font-size: 1.6rem;
+  color:white;
+}
+#mail{
+  margin-top:3% ;
+  height:4rem;
+  width:auto;
+  border-radius: 10px;
+  background-color:rgb(75, 161, 161);
+  padding: 10px 20px;
+
+}
+
+#subtext{
+  font-family: "roboto";
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  background-color: #6abebf;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  gap:50px;
+  padding-top: 2rem;
+}
